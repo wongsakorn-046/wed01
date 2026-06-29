@@ -1,0 +1,32 @@
+<html>
+    <head>
+        
+    </head>
+    
+    <body>
+        <h1>ทดลองเขียน JavaScript</h1>
+        <script src="script.js"></script>
+        <script>
+            let student = "สมพงษ์";
+            let midtrem = 70;
+            let final = 30;
+            let total = midtrem + final;
+            document.write("<hr><br>",student,
+            "ได้คะแนนสอบกลางภาค",midtrem,
+            "<br>คะแนนปลายภาค",final,"<br>คะแนนรวม",total);
+            let grade = "null"
+            if(total>=80){
+                grade = "A";
+            }else if(total>=70){
+                grade ="B";
+            }else if(total>=60){
+                grade ="C";
+            }else if(total>=50){
+                grade ="D";
+            }else{
+                grade ="E";
+            }    
+            document.write("<h3>เกรด:",grade,"<h3>");
+        </script>
+    </body>
+</html>
